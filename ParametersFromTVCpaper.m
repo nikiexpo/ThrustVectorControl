@@ -33,3 +33,6 @@ CN_FINS = 16*(HEIGHT_FIN/max_diameter)^2 / (1 + sqrt(1 + (2*MIDCHORD_FIN / (ROOT
 K = 1  +TIPCHORD_FIN/(HEIGHT_FIN + TIPCHORD_FIN);
 CN_INTERFERENCE = K*CN_FINS;
 CN = CN_INTERFERENCE + CN_BODY + CN_NOSE + CN_FINS;
+
+kinematic_viscosity = 1.495*10^-5;
+J_vec = [0.034, 6.3, 6.3];
